@@ -69,18 +69,12 @@ tr th {
   border-bottom: 2px solid #000;
 }
 
+tr th:first-child {
+  width: 60%;
+}
+
 tr td {
   padding: 0.5rem;
   font-size: 1.125rem;
   border-bottom: 1px solid rgb(0, 0, 0, 0.3);
-}
-
-button[type="button"] {
-  padding: 0.25rem;
-
-  font-size: 1.125rem;
-
-  color: #fff;
-  background-color: #e88873;
-  border-radius: 6px;
 }
